@@ -96,17 +96,19 @@
     text-align: center;
     bottom:0;
     left:0;
-    font-size: 200%;
     list-style: none;
 
 }
 #social li a {
+    display:inline-block;
     color:#fff;
-    transform: scale(0.5);
+    margin-right:20px;
+    transform: scale(2.0);
     transition: 0.5s;
+    text-shadow: 0, 0, 15px, #fff;
 }
 #social li a:hover {
-    transform: scale(0.5) translateY(-15px);
+    transform: scale(2.0) translateY(-15px);
 }
 #social {
     position:absolute;
