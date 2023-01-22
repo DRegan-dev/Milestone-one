@@ -125,22 +125,62 @@ footer {
     left:0;
     padding-bottom: 20px;
     padding-left: 30px;
+    width: 33.3%;
 }
+.button-container {
+    width:66.6%;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding-bottom: 30px;
+    padding-right: 30px;
+
+}
+button {
+    color: #fff;
+    font-size: 2rem;
+    background-color: transparent;
+    width:50%;
+    height:50px;
+    
+}   
+button:hover {
+    border:solid 2px;
+    border-color: yellow;
+    animation: none;
+    color:yellow;
+   
+    
+}
+@keyframes glowing {
+    0% {
+      border-color: transparent;
+      box-shadow: 0 0 0.1px #fff;
+      
+    }
+    50% {
+      border-color: transparent;
+      box-shadow: 0 0 20px #fff;
+    }
+    100% {
+      border-color: transparent;
+      box-shadow: 0 0 0px #fff;
+    }
+  }
+  button {
+    animation: glowing 7s infinite;
+  }
+  .fa-solid .fa-chevron-down {
+    animation: glowing 7s infinite;
+  }
+  
 /*Meditate page*/
 .med-content {
     position: relative;
-    height: 1800px;
+    height: 700px;
     width:100%;
     background-color: lightslategrey;
 }
 
-#benefits {
-    position: absolute;
-    height:1800px;
-    width:33.3%;
-    background-color: darkcyan;
-    
-}
 
-}
 
