@@ -181,6 +181,70 @@ button:hover {
     width:100%;
     background-color: lightslategrey;
 }
+#benefits {
+    position: absolute;
+    height: 200vh;
+    width:100%;
+    background-color: darkcyan;
+    display: none;
+}
+#med-benefits {
+    position:absolute;
+    width:50%;
+    background: transparent;
+    bottom:0;
+    left:0;
+    display: inline-block;
+}
+#yoga-benefits {
+    position:absolute;
+    width:50%;
+    background: transparent;
+    bottom:0;
+    right:0;
+    display: inline-block;
+}
+#med-benefits h2 {
+    position: relative;
+    font-size: 200%;
+    margin-bottom: 100px;
+    text-align: left;
+    color:#fff;
+    padding-left: 180px;
+}
+#med-benefits ul {
+    position:relative;
+    font-size: 120%;
+    margin-bottom: 200px;
+    text-align: left;
+    color: #fff;
+    padding-left: 200px;
+    
+
+}
+#med-benefits li {
+    margin-top: 10px;
+}
 
 
+#yoga-benefits h2 {
+    position:relative;
+    font-size: 200%;
+    margin-bottom: 100px;
+    text-align: left;
+    color:#fff;
+    padding-left: 180px;
+}
+#yoga-benefits ul {
+    position:relative;
+    font-size: 120%;
+    margin-bottom: 200px;
+    text-align: left;
+    color: #fff;
+    padding-left: 200px;
+}
+
+#yoga-benefits li {
+        margin-top: 10px;
+}
 

@@ -27,9 +27,19 @@
             <h3>A virtual Yoga and Meditation happening.</h3>
         </div>
         <div class="button-container">
-            <a href="#benefits">
-            <button class="trigger-switch"><i class="fa-solid fa-chevron-down"></i></button>
+            <a href="#med-benefits">
+            <button class="trigger-switch" onclick="myFunction()"><i class="fa-solid fa-chevron-down"></i></button>
             </a>
+            <script>
+                function myFunction() {
+  var x = document.getElementById("benefits");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+            </script>
             </div>
         <footer>
         <ul id="social">
@@ -45,6 +55,41 @@
         </ul> 
         
         </footer>
+    </section>
+    <section class="med-content">
+        <div id="benefits">
+            <div id="med-benefits">
+            <h2>Why you should Meditate</h2>
+            <ul>
+                <li>Reduces Stress.</li>
+                <li>Tames Anxiety.</li>
+                <li>Eases Depression</li>
+                <li>Lowers Blood Pressure</li>
+                <li>Boosts immune system</li>
+                <li>Improves memory</li>
+                <li>Better mood</li>
+                <li>Helps with addiction</li>
+                <li>Improves Sleep</li>
+                
+    
+            </ul>
+            </div>
+            <div id="yoga-benefits">
+                <h2>Why you should do Yoga</h2>
+                <ul>
+                    <li>Increased Flexibility</li>
+                    <li>Increased Muscle Strength and Tone</li>
+                    <li>Improved Respiration, Energy and Vitality</li>
+                    <li>Maintaining a balanced Metabolism</li>
+                    <li>Weight Reduction</li>
+                    <li>Cardio and Circulatory Health</li>
+                    <li>Improved Athletic Performance</li>
+                    <li>Protection from Injury</li>
+                </ul>
+            </div>
+        </div>
+            
+
     </section>
     <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>  
     
