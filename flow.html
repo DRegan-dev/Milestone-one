@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DropOut</title>
+</head>
+<body>
+    <section class="showcase">
+        
+        <header>
+        <h2 class="logo">DropOut.</h2>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meditate.html">Meditate</a></li>
+                <li><a href="flow.html">Flow</a></li>
+                <li><a href="#sign-up">Sign Up</a></li>
+            </ul>
+        </nav>
+        </header>
+        <video poster="./Assets/Dropout Hero Poster.png" src="flow-hero-image.mp4" autoplay muted loop id="dropout-hero"></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Flow.</h2>
+            <h3>Reach beyond what you thought possible.</h3>
+        </div>
+        <div class="button-container">
+            <a href="#slide-4">
+            <button class="trigger-switch" onclick="myFunction()"><i class="fa-solid fa-chevron-down"></i></button>
+            </a>
+            <script>
+                function myFunction() {
+  var x = document.getElementById("yoga-video-container");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+            </script>
+            </div>
+        <footer>
+        <ul id="social">
+            <li>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul> 
+        
+        </footer>
+    </section>
+    <section class="med-content">
+        <div id="yoga-video-container">
+            
+            
+
+            <a href="#slide-4"><button type="button" id="fifteen-minute-button">15 Minute</button></a>
+            <a href="#slide-5"><button type="button" id="thirty-minute-yoga-button">30 Minute</button></a>
+            <a href="#slide-6"><button type="button" id="sixty-minute-button">60 Minute</button></a>
+            <div class="slider">
+               <div class="slide" id="slide-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/r7xsYgTeM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+               <hr>
+               <div class="slide" id="slide-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/hJbRpHZr_d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+               <hr>
+               <div class="slide" id="slide-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/164zsYk4x9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+               
+            </div>
+        </div>
+            
+
+    </section>
+        
+    
+    <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>  
+    
+</body>
+</html>
