@@ -278,30 +278,48 @@ button:hover {
     position:absolute;
     margin-top: 750px;
     width: 20%;
+    height:50px;
     margin-left: 200px;
     animation: none;
-    border: solid 2px #fff;
+    border: solid 2px yellow;
     background-color: #098ba9;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color:#fff;
+    padding-top: 2px
 }
 
 #twenty-minute-button {
     position:absolute;
     margin-top: 750px;
     width: 20%;
+    height:50px;
     margin-left: 500px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color:#fff;
+    padding-top: 2px
 }
 
 #thirty-minute-button {
     position:absolute;
     margin-top: 750px;
     width: 20%;
+    height:50px;
     margin-left: 800px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color:#fff;
+    padding-top: 2px;
 }
 #fifteen-minute-button {
     position:absolute;
@@ -351,18 +369,17 @@ button:hover {
     padding-top: 2px;
 }
 
-#fifteen-minute-button:hover{
-    border-color: yellow;
+#ten-minute-button:active {
+    border:solid 4px #fff;
+    color: yellow;
 }
-
-#thirty-minute-yoga-button:hover {
-    border-color: yellow;
+#twenty-minute-button:active {
+    border:solid 4px #fff;
+    color: yellow;
 }
-#sixty-minute-button:hover {
-    border-color: yellow;
-}
-#selected-btn {
-    border-color: yellow;
+#thirty-minute-button:active {
+    border:solid 4px #fff;
+    color: yellow;
 }
 #fifteen-minute-button:active {
     border:solid 4px #fff;
