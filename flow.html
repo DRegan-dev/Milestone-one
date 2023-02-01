@@ -62,9 +62,9 @@
             
             
 
-            <a href="#slide-4"><button type="button" id="fifteen-minute-button">15 Minute</button></a>
-            <a href="#slide-5"><button type="button" id="thirty-minute-yoga-button">30 Minute</button></a>
-            <a href="#slide-6"><button type="button" id="sixty-minute-button">60 Minute</button></a>
+            <a href="#slide-4" class="vid-button" id="fifteen-minute-button" onclick="selected()" selected>15 Minute</a>
+            <a href="#slide-5" class="vid-button" id="thirty-minute-yoga-button" onclick="secondselected()">30 Minute</a>
+            <a href="#slide-6" class="vid-button" id="sixty-minute-button" onclick="thirdselected()">60 Minute</a>
             <div class="slider">
                <div class="slide" id="slide-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/r7xsYgTeM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                <hr>
@@ -77,7 +77,24 @@
             
 
     </section>
-        
+      <script>
+       function selected() {
+  document.getElementById("fifteen-minute-button").style.borderColor = "yellow";
+  document.getElementById("thirty-minute-yoga-button").style.borderColor = "white";
+  document.getElementById("sixty-minute-button").style.borderColor = "white";
+       }
+       function secondselected() {
+  document.getElementById("fifteen-minute-button").style.borderColor = "white";
+  document.getElementById("thirty-minute-yoga-button").style.borderColor = "yellow";
+  document.getElementById("sixty-minute-button").style.borderColor = "white";
+       }
+       function thirdselected() {
+  document.getElementById("fifteen-minute-button").style.borderColor = "white";
+  document.getElementById("thirty-minute-yoga-button").style.borderColor = "white";
+  document.getElementById("sixty-minute-button").style.borderColor = "yellow";
+       }
+       
+      </script>  
     
     <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>  
     
