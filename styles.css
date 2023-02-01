@@ -78,8 +78,8 @@
     color: yellow;
     text-shadow: 0px 0px 25px #fff;
 }
-.nav-menu a:visited {
-    color: #fff;
+.nav-menu a:focus-visible {
+    color: yellow;
 }
 
 .nav-menu li {
@@ -460,4 +460,18 @@ iframe {
     width:100%;
     background-color: darkcyan;
     display: none;
+}
+#full_name {
+    width: 200px;
+    height:40px;
+    font-size: 2rem;
+    opacity: 15.8%;
+    color: darkgrey;
+}
+#email_address {
+    width: 200px;
+    height:40px;
+    font-size: 2rem;
+    opacity: 15.8%;
+    color: darkgrey;
 }
