@@ -23,15 +23,15 @@
             </ul>
         </nav>
         </header>
-        <video poster="./Assets/Dropout Hero Poster.png" src="flow-hero-image.mp4" autoplay muted loop id="dropout-hero"></video>
+        <video poster="./assets/dropout-hero-poster.png" src="./assets/flow-hero-image.mp4" autoplay muted loop id="dropout-hero"></video>
         <div class="overlay"></div>
         <div class="text">
             <h2 class="body-text">Flow.</h2>
             <h3 class="body-text-small">Reach beyond what you thought possible.</h3>
         </div>
         <div class="button-container">
-            <a href="#slide-4">
-            <button class="trigger-switch" onclick="myFunction()"><i class="fa-solid fa-chevron-down"></i></button>
+            <a href="#slide-4" class="trigger-switch" onclick="myFunction()">
+            <i class="fa-solid fa-chevron-down"></i>
             </a>
             <!--The following javascript was borrowed from and article called "How to toggle Hide and Show" 
             which can be found at https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp-->
@@ -61,27 +61,27 @@
         
         </footer>
     </section>
-    <section class="med-content">
+    <div class="med-content">
         <div id="yoga-video-container">
            <!--The following code was taken and adapted from an article titled "You can get pretty far in making a slider with just HTML and CSS"
             and can be found at https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/--> 
             
 
-            <a href="#slide-4" class="vid-button" id="fifteen-minute-button" onclick="selected()" selected>15 Minute</a>
+            <a href="#slide-4" class="vid-button" id="fifteen-minute-button" onclick="selected()">15 Minute</a>
             <a href="#slide-5" class="vid-button" id="thirty-minute-yoga-button" onclick="secondselected()">30 Minute</a>
             <a href="#slide-6" class="vid-button" id="sixty-minute-button" onclick="thirdselected()">60 Minute</a>
             <div class="slider">
-               <div class="slide" id="slide-4"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/r7xsYgTeM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+               <div class="slide" id="slide-4"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/r7xsYgTeM2Q" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                <hr>
-               <div class="slide" id="slide-5"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/hJbRpHZr_d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+               <div class="slide" id="slide-5"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/hJbRpHZr_d0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                <hr>
-               <div class="slide" id="slide-6"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/164zsYk4x9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+               <div class="slide" id="slide-6"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/164zsYk4x9o" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                
             </div>
         </div>
             
 
-    </section>
+    </div>
       <script>
        function selected() {
   document.getElementById("fifteen-minute-button").style.borderColor = "yellow";

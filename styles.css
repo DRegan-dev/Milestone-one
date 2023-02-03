@@ -126,7 +126,7 @@
     margin-right:20px;
     transform: scale(2.0);
     transition: 0.5s;
-    text-shadow: 0, 0, 15px, #fff;
+    /* text-shadow: 0, 0, 15px, #fff; */
 }
 #social li a:hover {
     transform: scale(2.0) translateY(-15px);
@@ -148,7 +148,7 @@ footer {
     width: 33.3%;
 }
 .button-container {
-    width:66.6%;
+    width:400px;
     position:absolute;
     bottom:0;
     right:0;
@@ -156,15 +156,20 @@ footer {
     padding-right: 30px;
 
 }
-button {
+.trigger-switch {
+    position: relative;
     color: #fff;
     font-size: 2rem;
     background-color: transparent;
-    width:50%;
+    width: 100%;
     height:50px;
+    display: inline-block;
+    margin-right: 500px;
+    text-decoration: none;
+    text-align: center;
     
 }   
-button:hover {
+.trigger-switch:hover {
     border:solid 2px;
     border-color: yellow;
     animation: none;
@@ -187,14 +192,15 @@ button:hover {
       box-shadow: 0 0 0px #fff;
     }
   }
-  button {
+  .trigger-switch {
     animation: glowing 7s infinite;
   }
   .fa-solid .fa-chevron-down {
     animation: glowing 7s infinite;
+    text-decoration: none;
   }
   
-/*Meditate page*/
+
 .med-content {
     position: absolute;
     height: 700px;
@@ -221,6 +227,7 @@ button:hover {
     display: inline-block;
     top:1050px;
 }
+
 #yoga-benefits {
     position:absolute;
     width:100%;
@@ -614,7 +621,7 @@ iframe {
         right:0;
         padding: 5px; 
         margin: 20px;
-        align-items: left;
+        
         justify-content:flex-start;
     }
     .logo {
@@ -648,7 +655,7 @@ iframe {
         
     
     }
-    button {
+    .trigger-switch {
         width:100%
     }
    
