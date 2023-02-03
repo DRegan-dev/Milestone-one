@@ -200,31 +200,38 @@ button:hover {
     height: 700px;
     width:100%;
     background-color: lightslategrey;
+    margin:0;
+    padding:0;
 }
 #benefits {
     position: relative;
-    height: 200vh;
+    height: 280%;
     width:100%;
     background-color: darkcyan;
     display: none;
+    overflow: hidden;
 }
 #med-benefits {
     position:absolute;
-    width:50%;
-    height:200vh;
+    width:100%;
+    height:25%;
     background: transparent;
     bottom:0;
     left:0;
     display: inline-block;
+    top:1050px;
 }
 #yoga-benefits {
     position:absolute;
-    width:50%;
-    height:200vh;
+    width:100%;
+    height:25%;
     background: transparent;
+    margin:0;
+    padding:0;
     bottom:0;
     right:0;
     display: inline-block;
+    top:1550px;
 }
 #med-benefits h2 {
     position: relative;
@@ -240,7 +247,8 @@ button:hover {
     margin-bottom: 150px;
     text-align: left;
     color: #fff;
-    padding-left: 80px;
+    padding-left: 60px;
+    list-style: none;
     
 
 }
@@ -253,17 +261,19 @@ button:hover {
     position:relative;
     font-size: 200%;
     margin-bottom: 50px;
-    text-align: left;
+    text-align: right;
     color:#fff;
-    padding-left: 30px;
+    padding-right: 50px;
+    
 }
 #yoga-benefits ul {
     position:relative;
     font-size: 120%;
-    margin-bottom: 182px;
-    text-align: left;
+    margin-bottom: 0px;
+    text-align: right;
     color: #fff;
-    padding-left: 50px;
+    padding-right: 60px;
+    list-style: none;
 }
 
 #yoga-benefits li {
@@ -272,36 +282,51 @@ button:hover {
 
 /*meditation page*/
 #med-video-container {
-    position: absolute;
-    height: 200vh;
+    position: relative;
+    height: 200%;
     width:100%;
+    bottom:0;
+    left:0;
     background-color: darkcyan;
     display: none;
 }
-.slider {
+.slider {  
     position:absolute;
     width: 60%;
-    height: 500px;
-    display: flex;;
+    height: 30%;
+    display: flex;
     bottom:0;
-    margin-bottom: 100px;
-    margin-left: 250px;
+    margin-bottom: 150px;
+    margin-left: 255px;
     color:aliceblue;
-    background-color: black;
-    overflow:hidden
+    background-color: darkcyan;
+    overflow: hidden;
     
-  }
+    
+    
+  } 
   .slide {
       width: 300px;
       flex-shrink: 0;
-      height: 100%;
+      height: 50%;
+      
     }
+    .videos {
+        aspect-ratio: 16/8.7;
+        width: 100%; 
+        height:auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    
+    
 #ten-minute-button {
     position:absolute;
-    margin-top: 750px;
-    width: 20%;
+    margin-top: 900px;
+    width: 200px;
     height:50px;
-    margin-left: 200px;
+    margin-left: 50px;
     animation: none;
     border: solid 2px yellow;
     background-color: #098ba9;
@@ -314,10 +339,10 @@ button:hover {
 
 #twenty-minute-button {
     position:absolute;
-    margin-top: 750px;
-    width: 20%;
+    margin-top: 1000px;
+    width: 200px;
     height:50px;
-    margin-left: 500px;
+    margin-left: 50px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -330,10 +355,10 @@ button:hover {
 
 #thirty-minute-button {
     position:absolute;
-    margin-top: 750px;
-    width: 20%;
+    margin-top: 1100px;
+    width: 200px;
     height:50px;
-    margin-left: 800px;
+    margin-left: 50px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -345,10 +370,10 @@ button:hover {
 }
 #fifteen-minute-button {
     position:absolute;
-    margin-top: 750px;
-    width: 20%;
+    margin-top: 900px;
+    width: 200px;
     height:50px;
-    margin-left: 200px;
+    margin-left: 50px;
     animation: none;
     border: solid 2px yellow;
     background-color: #098ba9;
@@ -361,10 +386,10 @@ button:hover {
 
 #thirty-minute-yoga-button {
     position:absolute;
-    margin-top: 750px;
-    width: 20%;
+    margin-top: 1000px;
+    width: 200px;
     height:50px;
-    margin-left: 500px;
+    margin-left: 50px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -377,10 +402,10 @@ button:hover {
   
 #sixty-minute-button { 
     position:absolute;
-    margin-top: 750px;
-    width: 20%;
+    margin-top: 1100px;
+    width: 200px;
     height:50px;
-    margin-left: 800px;
+    margin-left: 50px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -471,7 +496,7 @@ iframe {
     position:absolute;
     width: 100%;
     height: 500px;
-    display: flex;;
+    display: flex;
     margin-bottom: 0px;
     margin-left: 0px; 
 }
@@ -482,6 +507,7 @@ iframe {
     width:100%;
     background-color: darkcyan;
     display: none;
+    overflow:scroll;
 }
 #full_name {
     width: 200px;
@@ -512,6 +538,57 @@ iframe {
     color:yellow;
    
 }
+
+@media screen and (max-width: 950px) {
+    /* .slider {
+        margin-left:50px;
+        display:block;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    } */
+    #ten-minute-button {
+        margin-left:165px;
+        margin-top:800px;
+    }
+    #twenty-minute-button {
+        margin-left:165px;
+        margin-top: 875px;
+    }
+    #thirty-minute-button {
+        margin-left:165px;
+        margin-top:950px;
+    }
+    #fifteen-minute-button {
+        margin-left:165px;
+        margin-top:800px;
+    }
+    #thirty-minute-yoga-button {
+        margin-left:165px;
+        margin-top: 875px;
+    }
+    #sixty-minute-button {
+        margin-left:165px;
+        margin-top:950px;
+    }
+    .slider {
+        position:absolute;
+        width: 80%;
+        height: 25%;
+        display: block;
+        bottom:0;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        color:aliceblue;
+        background-color: darkcyan;
+        }
+      .slide {
+        height:100%;
+          width: 100%;
+          flex-shrink: 0;
+          height: 100%;
+        }
+}
+    
 @media (max-width: 886px) {
     .toggle-button {
         display:flex;
@@ -576,14 +653,17 @@ iframe {
     }
    
     #med-benefits  {
-        display:block;
+        position:absolute;
         width:100%;
-        height: 25%;
-        top:780px;
-        
+        height:25%;
+        background: transparent;
+        bottom:0;
+        left:0;
+        display: inline-block;
+        top:1050px;
     }
     #benefits {
-        height: 200%;
+        height: 300%;
     }
     #med-benefits h2 {
         font-size: 150%;
@@ -600,11 +680,14 @@ iframe {
         list-style: none;
     }
     #yoga-benefits {
-        display: inline-block;
-        width:100%;
-        height:25%;
-        top:1150px;
-        bottom:10px;
+    position:absolute;
+    width:100%;
+    height:25%;
+    background: transparent;
+    bottom:0;
+    right:0;
+    display: inline-block;
+    top:1550px;
     }
     #yoga-benefits h2 {
         position:relative;
@@ -635,16 +718,28 @@ iframe {
     .body-text-small {
         font-size: 10px;
     }
-    #med-benefits  {
-        display:block;
-        width:100%;
-        height: 25%;
-        top:900px;
-        
+    .med-video-container {
+        overflow-y: scroll;
     }
+    #med-benefits  {
+        position:absolute;
+        width:100%;
+        height:25%;
+        background: transparent;
+        
+        bottom:0;
+        left:0;
+        display: inline-block;
+        top:1050px;
+    }
+    #med-benefits h2 {
+        font-size: 200%;
+    }
+
+        
     #med-benefits ul {
         position:relative;
-        font-size: 100%;
+        font-size: 150%;
         margin-bottom: 5px;
         text-align: left;
         color: #fff;
@@ -652,16 +747,18 @@ iframe {
         list-style: none;
     }
     #yoga-benefits {
-        display: inline-block;
+        position:absolute;
         width:100%;
         height:25%;
-        top:1300px;
-        
-    }
+        background: transparent;
+        right:0;
+        display: inline-block;
+        top:1550px;
+        }
     
     #yoga-benefits h2 {
         position:relative;
-        font-size: 150%;
+        font-size: 200%;
         margin-bottom: 20px;
         text-align: left;
         color:#fff;
@@ -669,15 +766,62 @@ iframe {
         bottom:0;
         text-align: right;
     }
-    
     #yoga-benefits ul {
         position:relative;
-        font-size: 100%;
+        font-size: 150%;
         margin-bottom: 50px;
         text-align: right;
         color: #fff;
-        padding-right: 100px;
+        padding-right: 50px;
         list-style: none;
+        
     }
+    #ten-minute-button {
+        margin-left: 20px;
+        margin-top:800px;
+    }
+    #twenty-minute-button {
+        margin-left:20px;
+        margin-top: 875px;
+    }
+    #thirty-minute-button {
+        margin-left:20px;
+        margin-top:950px;
+    }
+    #fifteen-minute-button {
+        margin-left: 20px;
+        margin-top:800px;
+    }
+    #thirty-minute-yoga-button {
+        margin-left:20px;
+        margin-top: 875px;
+    }
+    #sixty-minute-button {
+        margin-left:20px;
+        margin-top:950px;
+    }
+    .slider {
+        position:absolute;
+        width: 80%;
+        height: 20%;
+        display: block;
+        bottom:0;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        color:aliceblue;
+        background-color: darkcyan;
+        overflow:hidden;
+
+        
+      }
+      .slide {
+        height:10%;
+          width: 20%;
+          flex-shrink: 0;
+          height: 100%;
+        }
+        
+
 }
+
     
