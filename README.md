@@ -6,7 +6,7 @@ DropOut. is a site that hopes to inform and get people involved in a regular yog
 
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
 
 Existing Features
 Navigation Bar
@@ -52,24 +52,23 @@ The background for all dropdown sections will be updated to display a more visua
 
 The Yoga and meditation benefits dropdown will include two images one to represent meditation and the other to represent yoga practice
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Validator Testing
 HTML
 No errors were returned when passing through the official W3C validator
 CSS
 No errors were found when passing through the official (Jigsaw) validator
+
+Fixed bugs
+
+video display appearing out sidewidth of parent element on smaller screens. Fixed by adjusting positioning in media queries.
+
 Unfixed Bugs
+
 On smaller screens the buttons can sometimes display behind the main landing page video background or behnd the video on the video dropdown page.
 There is unused white space to the right of the page border. 
-Research was carried out to discover why this was these things occured but no fruitful results were obtained. It is suspected to be due to positioning of the elements and potentially the display style used for some elements.
+Research was carried out to discover why these things occured but no fruitful results were obtained. It is suspected to be due to positioning of the elements and potentially the display style used for some elements.
 
 A toggle button was incorporated for the the nav bar but getting it to function required the use of javascript and as this is a html css based site. The idea was abandoned. 
 
@@ -83,11 +82,6 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - (https://dregan-dev.github.io/Milestone-one/)
 
 Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 Content
 The text for the Benefits dropdown section "Why you should Meditate" was taken from Forbes.com url:https://www.forbes.com/health/mind/benefits-of-meditation/#:~:text=Consistent%20meditation%20has%20been%20shown,pain%2C%20fatigue%20and%20heart%20disease.
