@@ -7,8 +7,12 @@
     font-family: 'Abel', sans-serif;
     border:0;
 }
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
 .showcase {
-    position:absolute;
+    position:relative;
     left:0;
     width: 100vw;
     height:100vh;
@@ -225,7 +229,7 @@ footer {
     bottom:0;
     left:0;
     display: inline-block;
-    top:1050px;
+    top:150px;
 }
 
 #yoga-benefits {
