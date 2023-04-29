@@ -23,14 +23,14 @@
             </ul>
         </nav>
         </header>
-        <video poster="./assets/dropout-hero-poster.png" src="meditate-hero-image.mp4" autoplay muted loop id="dropout-hero"></video>
+        <video poster="./assets/dropout-hero-poster.png" src="/assets/meditate-hero-image.mp4" autoplay muted loop id="dropout-hero"></video>
         <div class="overlay"></div>
         <div class="text">
             <h2 class="body-text">Meditate.</h2>
             <h3 class="body-text-small">Escape from Expectation and Drop in to your Self.</h3>
         </div>
         <div class="button-container">
-            <a href="#slide-1" class="trigger-switch" onclick="myFunction()">
+            <a href="#med-video-container" class="trigger-switch" onclick="myFunction()">
             <i class="fa-solid fa-chevron-down"></i>
             </a>
              <!--The following javascript was borrowed from and article called "How to toggle Hide and Show" 
@@ -42,6 +42,12 @@
     x.style.display = "block";
   } else {
     x.style.display = "none";
+  }
+  var y = document.getElementById("med-content");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
   }
 }
             </script>
@@ -61,7 +67,7 @@
         
         </footer>
     </section>
-    <div class="med-content">
+    <div id="med-content">
         <div id="med-video-container">
             <!--The following code was taken and adapted from an article titled "You can get pretty far in making a slider with just HTML and CSS"
             and can be found at https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/-->
