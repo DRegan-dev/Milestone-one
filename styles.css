@@ -370,10 +370,10 @@ footer {
     
 #ten-minute-button {
     position:absolute;
-    margin-top: 50px;
-    width: 200px;
+    margin-top: 60px;
+    width: 250px;
     height:50px;
-    margin-left: 50px;
+    margin-left: 200px;
     animation: none;
     border: solid 2px yellow;
     background-color: #098ba9;
@@ -387,9 +387,9 @@ footer {
 #twenty-minute-button {
     position:absolute;
     margin-top: 60px;
-    width: 200px;
+    width: 250px;
     height:50px;
-    margin-left: 50px;
+    margin-left: 512px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -402,10 +402,10 @@ footer {
 
 #thirty-minute-button {
     position:absolute;
-    margin-top: 70px;
-    width: 200px;
+    margin-top: 60px;
+    width: 250px;
     height:50px;
-    margin-left: 50px;
+    margin-left: 825px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -417,10 +417,10 @@ footer {
 }
 #fifteen-minute-button {
     position:absolute;
-    margin-top: 900px;
-    width: 200px;
+    margin-top: 60px;
+    width: 250px;
     height:50px;
-    margin-left: 50px;
+    margin-left: 200px;
     animation: none;
     border: solid 2px yellow;
     background-color: #098ba9;
@@ -433,10 +433,10 @@ footer {
 
 #thirty-minute-yoga-button {
     position:absolute;
-    margin-top: 1000px;
-    width: 200px;
+    margin-top: 60px;
+    width: 250px;
     height:50px;
-    margin-left: 50px;
+    margin-left: 512px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -449,10 +449,10 @@ footer {
   
 #sixty-minute-button { 
     position:absolute;
-    margin-top: 1100px;
-    width: 200px;
+    margin-top: 60px;
+    width: 250px;
     height:50px;
-    margin-left: 50px;
+    margin-left: 825px;
     animation: none;
     border: solid 2px #fff;
     background-color: #098ba9;
@@ -549,12 +549,13 @@ iframe {
 }
 
 #yoga-video-container {
-    position: absolute;
-    height: 200vh;
+    position: relative;
+    height: 100vh;
     width:100%;
     background-color: darkcyan;
     display: none;
-    overflow:scroll;
+    overflow: hidden;
+    clear: both;
 }
 #full_name {
     width: 200px;
