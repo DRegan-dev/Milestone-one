@@ -34,10 +34,10 @@
             <h3 class="body-text-small">A virtual Yoga and Meditation happening.</h3>
         </div>
         <div class="button-container">
-            <a href="#med-benefits" class="trigger-switch" onclick="myFunction()">
+            <a href="#benefits" class="trigger-switch" onclick="myFunction()">
             <i class="fa-solid fa-chevron-down"></i>
             </a>
-            <!--The following javascript was borrowed from and article called "How to toggle Hide and Show" 
+            <!--The following javascript was borrowed from an article called "How to toggle Hide and Show" 
             which can be found at https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp-->
             <script>
                 function myFunction() {
@@ -46,6 +46,12 @@
     x.style.display = "block";
   } else {
     x.style.display = "none";
+  }
+  var y = document.getElementById("med-content");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
   }
 }
             </script>
@@ -65,38 +71,44 @@
         
         </footer>
     </section>
-    <section class="med-content">
+    <section id="med-content">
         <div id="benefits">
             <div id="med-benefits">
             <h2>Why you should Meditate:</h2>
             <ul>
                 <li>Reduces Stress.</li>
                 <li>Tames Anxiety.</li>
-                <li>Eases Depression</li>
-                <li>Lowers Blood Pressure</li>
-                <li>Boosts immune system</li>
-                <li>Improves memory</li>
-                <li>Better mood</li>
-                <li>Helps with addiction</li>
-                <li>Improves Sleep</li>
+                <li>Eases Depression.</li>
+                <li>Lowers Blood Pressure.</li>
+                <li>Boosts immune system.</li>
+                <li>Improves memory.</li>
+                <li>Better mood.</li>
+                <li>Helps with addiction.</li>
+                <li>Improves Sleep.</li>
                 
     
             </ul>
             
             </div>
+            <div id="meditating">
+                <img id="meditation-image" src="/assets/pexels-andrea-piacquadio-917732.jpg" alt="Women sitting cross-legged and meditating">
+            </div>
             <div id="yoga-benefits">
                 <h2>Why you should do Yoga:</h2>
                 <ul>
-                    <li>Increased Flexibility</li>
-                    <li>Increased Muscle Strength and Tone</li>
-                    <li>Improved Respiration, Energy and Vitality</li>
-                    <li>Maintaining a balanced Metabolism</li>
-                    <li>Weight Reduction</li>
-                    <li>Cardio and Circulatory Health</li>
-                    <li>Improved Athletic Performance</li>
-                    <li>Protection from Injury</li>
+                    <li>Increased Flexibility.</li>
+                    <li>Increased Muscle Strength and Tone.</li>
+                    <li>Improved Respiration, Energy and Vitality.</li>
+                    <li>Maintaining a balanced Metabolism.</li>
+                    <li>Weight Reduction.</li>
+                    <li>Cardio and Circulatory Health.</li>
+                    <li>Improved Athletic Performance.</li>
+                    <li>Protection from Injury.</li>
                 </ul>
                 
+            </div>
+            <div id="yoga-stretch">
+                <img id="yoga-image" src="/assets/pexels-li-sun-2294363.jpg" alt="Man doing side plank yoga position">
             </div>
         </div>
             
@@ -105,4 +117,4 @@
     <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>  
     
 </body>
-</html>
+</html
