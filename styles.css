@@ -587,289 +587,43 @@ iframe {
    
 }
 
-@media screen and (max-width: 950px) {
-    /* .slider {
-        margin-left:50px;
-        display:block;
-        overflow-x: scroll;
-        overflow-y: hidden;
-    } */
-    #ten-minute-button {
-        margin-left:165px;
-        margin-top:800px;
-    }
-    #twenty-minute-button {
-        margin-left:165px;
-        margin-top: 875px;
-    }
-    #thirty-minute-button {
-        margin-left:165px;
-        margin-top:950px;
-    }
-    #fifteen-minute-button {
-        margin-left:165px;
-        margin-top:800px;
-    }
-    #thirty-minute-yoga-button {
-        margin-left:165px;
-        margin-top: 875px;
-    }
-    #sixty-minute-button {
-        margin-left:165px;
-        margin-top:950px;
-    }
-    .slider {
-        position:absolute;
-        width: 80%;
-        height: 25%;
-        display: block;
-        bottom:0;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        color:aliceblue;
-        background-color: darkcyan;
-        }
-      .slide {
-        height:100%;
-          width: 100%;
-          flex-shrink: 0;
-          height: 100%;
-        }
-}
-    
-@media (max-width: 886px) {
-    .toggle-button {
-        display:flex;
-    }
-    .nav-menu li {
-        /* display: none; */
-        
-    }
-    .nav-menu {
-        position: absolute;
-        top: 80px;
-        left: 0px;
-        width:100%;
-        background-color: rgba(9, 139, 169, 0.4);
-        border-top: #fff;
-        border-bottom: #fff;
-        
-    }
-    #mynav a{
-        position: relative;
-        display:inline;
-        width:25%;
-        right:0;
-        padding: 5px; 
-        margin: 20px;
-        
-        justify-content:flex-start;
-    }
-    .logo {
-        position:relative;
-        margin:5px;
-        top:0;
-        left:0;
-        font-size: 40px;
-    }
-    .text {
-        position:absolute;
-        left:0;
-        padding-left: 10px;
-    }
-    .body-text{
-        position: relative;
-        left:0;
-        margin:0;
-        font-size: 3em !important;
-    }
-    .body-text-small {
-        font-size: 2em;
-    }
-    .button-container {
-        width:100%;
-        position:absolute;
-        bottom:0;
-        right:0;
-        padding-bottom: 100px;
-        padding-left: 20px;
-        
-    
+@media screen and (max-width: 1180px) {
+    #med-video-container {
+        height: 70vh;
+
     }
     .trigger-switch {
-        width:100%
-    }
-   
-    #med-benefits  {
-        position:absolute;
-        width:100%;
-        height:25%;
-        background: transparent;
-        bottom:0;
-        left:0;
-        display: inline-block;
-        top:1050px;
-    }
-    #benefits {
-        height: 300%;
-    }
-    #med-benefits h2 {
-        font-size: 150%;
-    }
-
-        
-    #med-benefits ul {
-        position:relative;
-        font-size: 100%;
-        margin-bottom: 5px;
-        text-align: left;
-        color: #fff;
-        padding-left: 50px;
-        list-style: none;
-    }
-    #yoga-benefits {
-    position:absolute;
-    width:100%;
-    height:25%;
-    background: transparent;
-    bottom:0;
-    right:0;
-    display: inline-block;
-    top:1550px;
-    }
-    #yoga-benefits h2 {
-        position:relative;
-        font-size: 150%;
-        margin-bottom: 20px;
-        text-align: left;
-        color:#fff;
-        padding-right: 100px;
-        bottom:0;
-        text-align: right;
-    }
-    #yoga-benefits ul {
-        position:relative;
-        font-size: 100%;
-        margin-bottom: 50px;
-        text-align: right;
-        color: #fff;
-        padding-right: 100px;
-        list-style: none;
-        
-    }
-}
-@media (max-width:600px) {
-    .logo {
-        font-size:30px;
-        margin:2px;
-    }
-    .body-text-small {
-        font-size: 10px;
-    }
-    .med-video-container {
-        overflow-y: scroll;
-    }
-    #med-benefits  {
-        position:absolute;
-        width:100%;
-        height:25%;
-        background: transparent;
-        
-        bottom:0;
-        left:0;
-        display: inline-block;
-        top:1050px;
-    }
-    #med-benefits h2 {
-        font-size: 200%;
-    }
-
-        
-    #med-benefits ul {
-        position:relative;
-        font-size: 150%;
-        margin-bottom: 5px;
-        text-align: left;
-        color: #fff;
-        padding-left: 50px;
-        list-style: none;
-    }
-    #yoga-benefits {
-        position:absolute;
-        width:100%;
-        height:25%;
-        background: transparent;
-        right:0;
-        display: inline-block;
-        top:1550px;
-        }
-    
-    #yoga-benefits h2 {
-        position:relative;
-        font-size: 200%;
-        margin-bottom: 20px;
-        text-align: left;
-        color:#fff;
-        padding-right: 100px;
-        bottom:0;
-        text-align: right;
-    }
-    #yoga-benefits ul {
-        position:relative;
-        font-size: 150%;
-        margin-bottom: 50px;
-        text-align: right;
-        color: #fff;
-        padding-right: 50px;
-        list-style: none;
-        
-    }
-    #ten-minute-button {
-        margin-left: 20px;
-        margin-top:800px;
-    }
-    #twenty-minute-button {
-        margin-left:20px;
-        margin-top: 875px;
-    }
-    #thirty-minute-button {
-        margin-left:20px;
-        margin-top:950px;
-    }
-    #fifteen-minute-button {
-        margin-left: 20px;
-        margin-top:800px;
-    }
-    #thirty-minute-yoga-button {
-        margin-left:20px;
-        margin-top: 875px;
-    }
-    #sixty-minute-button {
-        margin-left:20px;
-        margin-top:950px;
+        margin-right: 0;
     }
     .slider {
-        position:absolute;
-        width: 80%;
-        height: 20%;
-        display: block;
-        bottom:0;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        color:aliceblue;
-        background-color: darkcyan;
-        overflow:hidden;
+        margin-left: 150px;
+        margin-bottom: 0;
+        bottom: 0;
+        height: 350px;
+        margin-bottom: 50px;
+    }
 
-        
-      }
-      .slide {
-        height:10%;
-          width: 20%;
-          flex-shrink: 0;
-          height: 100%;
-        }
-        
+    iframe {
+        height: 50px;
+    }
 
+    #slide-1 {
+        margin-bottom: 40px;
+    }
+
+    #ten-minute-button {
+        margin-left: 280px
+    }
+
+    #twenty-minute-button {
+        margin-left: 280px;
+        margin-top: 150px;
+    }
+
+    #thirty-minute-button {
+        margin-left: 280px;
+        margin-top: 240px
+    }
 }
 
     
