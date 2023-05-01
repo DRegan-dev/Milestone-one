@@ -82,21 +82,21 @@ The live link can be found here - (https://dregan-dev.github.io/Milestone-one/)
 
 ## Credits
 
-## Content
+### Content
 The text for the Benefits dropdown section "Why you should Meditate" was taken from Forbes.com url:https://www.forbes.com/health/mind/benefits-of-meditation/#:~:text=Consistent%20meditation%20has%20been%20shown,pain%2C%20fatigue%20and%20heart%20disease.
 
 The text for the Benefits dropdown section "Why you should do yoga" was taken from osteopathic.org url:(https://osteopathic.org/what-is-osteopathic-medicine/benefits-of-yoga/)
 
 The icons in the footer were taken from Font Awesome
 
-## Media
+### Media
 The videos used on the home, Meditate., Flow., and Sign up page are from pexels.com
 
 The videos for the meditation videos dropdown section were taken from the channel titled Great Meditation and Jason Stephenson - Sleep Meditation Music hosted on www.youtube.com
 
 The videos for the yoga videos dropdown section were taken from the channel titled Yoga With Adriene hosted on www.youtube.com
 
-## Extra help
+### Extra help
 
 Inspiration for this project was taken largley from a project carried out by a channel called Traversy Media on www.youtube.com url:https://www.youtube.com/watch?v=8MgpE2DTTKA
 
