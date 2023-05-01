@@ -20,7 +20,7 @@ body {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    background: #111;
+    background: transparent;
     color: #fff;
     z-index: 2;
 }
@@ -110,12 +110,12 @@ body {
     display:inline;
     padding-top: 20px;
 }
-.dropout-hero {
+/* .dropout-hero {
     width:100%;
     height:100vh;
     padding:0;
     margin:0;
-}
+} */
 #social li {
     margin:20px;
     text-align: center;
@@ -150,6 +150,7 @@ footer {
     padding-bottom: 20px;
     padding-left: 30px;
     width: 33.3%;
+    margin-bottom: 2px;
 }
 .button-container {
     width:400px;
@@ -158,6 +159,8 @@ footer {
     right:0;
     padding-bottom: 30px;
     padding-right: 30px;
+    margin-bottom: 20px;
+    clear: both;
 
 }
 .trigger-switch {
@@ -208,11 +211,16 @@ footer {
 #med-content {
     display: none;
     position: absolute;
-    height: 700px;
+    height: 100vh;
     width:100%;
     background-color: lightslategrey;
     margin:0;
-    padding:0;
+    padding-top: 0;
+    clear: both;
+    
+    
+}
+#med-video-container {
     clear: both;
 }
 #benefits {
@@ -232,7 +240,6 @@ footer {
     left:0;
     display: inline-block;
     top:50px;
-    clear: both;
 }
 #meditating {
     width: 50%;
@@ -336,6 +343,7 @@ footer {
     display: none;
     overflow: hidden;
     clear: both;
+    margin-bottom: 20px;
 }
 .slider {  
     position:absolute;
@@ -367,9 +375,9 @@ footer {
     }
     
     
-    
+
 #ten-minute-button {
-    position:absolute;
+    position: absolute;
     margin-top: 60px;
     width: 250px;
     height:50px;
@@ -401,7 +409,7 @@ footer {
 }
 
 #thirty-minute-button {
-    position:absolute;
+    position: absolute;
     margin-top: 60px;
     width: 250px;
     height:50px;
@@ -466,26 +474,32 @@ footer {
 #ten-minute-button:active {
     border:solid 4px #fff;
     color: yellow;
+    outline: none;
 }
 #twenty-minute-button:active {
     border:solid 4px #fff;
     color: yellow;
+    outline: none;
 }
 #thirty-minute-button:active {
     border:solid 4px #fff;
     color: yellow;
+    outline: none;
 }
 #fifteen-minute-button:active {
     border:solid 4px #fff;
     color: yellow;
+    outline: none;
 }
 #thirty-minute-yoga-button:active {
     border:solid 4px #fff;
     color: yellow;
+    outline: none;
 }
 #sixty-minute-button:active {
     border:solid 4px #fff;
     color: yellow;
+    outline: none;
 }
 
 
@@ -596,7 +610,7 @@ iframe {
         display:none;
     }
     #med-video-container {
-        height: 70vh;
+        height: 100vh;
 
     }
     .trigger-switch {
@@ -629,14 +643,14 @@ iframe {
 
     #thirty-minute-button {
         margin-left: 34%;
-        margin-top: 240px
+        margin-top: 440px
     }
 }
 
 @media screen and (max-width: 414px) {
     .button-container {
         padding: 10px;
-        clear:both;
+        
 
     }
     .trigger-switch {
@@ -684,7 +698,7 @@ iframe {
     }
 
     .slider {
-        margin-bottom: -100px;
+        margin-bottom: -150px;
         margin-left: 100px;
     }
 
@@ -701,23 +715,23 @@ iframe {
     }
 
     #med-content {
-        height: 70vh;
+        height: 100vh;
 
    }
 
     #ten-minute-button {
         margin-left: 22%;
-        margin-top: 110px;
+        margin-top: 320px;
    }
 
     #twenty-minute-button {
         margin-left: 22%;
-        margin-top: 200px;
+        margin-top: 410px;
    }
 
     #thirty-minute-button {
         margin-left: 22%;
-        margin-top: 290px
+        margin-top: 500px
 }
 
 }
@@ -765,24 +779,37 @@ iframe {
     }
 
     .slider {
-        margin-bottom: -200px;
+        margin-bottom: -250px;
         margin-left: 100px;
+        margin-top: 100px;
     }
 
     #ten-minute-button {
         margin-left: 22%;
-        margin-top: 60px;
+        margin-top: 320px;
+        vertical-align: top;
     }
 
     #twenty-minute-button {
         margin-left: 22%;
-        margin-top: 150px;
+        margin-top: 410px;
+        vertical-align: top;
     }
 
     #thirty-minute-button {
         margin-left: 22%;
-        margin-top: 240px
+        margin-top: 500px;
+        vertical-align: top;
     }
+    #slide-btns {
+        position:absolute;
+        width: 100%;
+        height: 200px;
+        background-color: azure;
+        margin-bottom: 200px;
+        
+
+    }  
 }
 
 
