@@ -61,13 +61,16 @@ No errors were found when passing through the official (Jigsaw) validator
 
 ## Fixed bugs
 
-video display appearing out sidewidth of parent element on smaller screens. Fixed by adjusting positioning in media queries.
+Video display appearing out sidewidth of parent element on smaller screens. Fixed by adjusting positioning in media queries.
+Excessive vertical and horizontal scroll fixed.
 
 ## Unfixed Bugs
 
 On smaller screens the buttons can sometimes display behind the main landing page video background or behnd the video on the video dropdown page.
 There is unused white space to the right of the page border. 
-Research was carried out to discover why these things occured but no fruitful results were obtained. It is suspected to be due to positioning of the elements and potentially the display style used for some elements.
+Research was carried out to discover why these things occured but no fruitful results were obtained. It is suspected to be due to positioning of the elements and potentially the display style used for some elements. Further research into this was conducted and alterations made to the position: absolute and position:relative styles but issue still persisted. 
+
+Weekly hour limit was reached on github and could not correct signup sheet validation and submission and filepaths in directory. 
 
 A toggle button was incorporated for the the nav bar but getting it to function required the use of javascript and as this is a html css based site. The idea was abandoned. 
 
