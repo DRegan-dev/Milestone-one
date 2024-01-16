@@ -33,7 +33,7 @@
             <a href="#med-video-container" class="trigger-switch" onclick="myFunction()">
             <i class="fa-solid fa-chevron-down"></i>
             </a>
-             <!--The following javascript was borrowed from and article called "How to toggle Hide and Show" 
+             <!-- The following javascript was borrowed from and article called "How to toggle Hide and Show" 
             which can be found at https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp-->
             <script>
                 function myFunction() {
@@ -68,13 +68,13 @@
         </footer>
     </section>
     <div id="med-content">
-        <div id="med-video-container">
+        <!-- <div id="med-video-container"> -->
             <!--The following code was taken and adapted from an article titled "You can get pretty far in making a slider with just HTML and CSS"
             and can be found at https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/-->
             
             
             
-                 <a href="#slide-1" class="vid-button" id="ten-minute-button" onclick="select()">10 Minute</a>
+                 <!-- <a href="#slide-1" class="vid-button" id="ten-minute-button" onclick="select()">10 Minute</a>
                  <a href="#slide-2" class="vid-button" id="twenty-minute-button" onclick="secondselect()">20 Minute</a>
                  <a href="#slide-3" class="vid-button" id="thirty-minute-button" onclick="thirdselect()">30 Minute</a>
             
@@ -88,9 +88,23 @@
             </div>
         </div>
             
+        -->
 
-    </div>
-    <script>
+        <div class="rolodex">
+            <div class="card">
+                <iframe src="https://www.youtube.com/watch?v=j8bEWn2E9uo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/watch?v=2xF_teT2_V0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/watch?v=qSG7PsdZG04" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Add more cards with video if needed -->
+        </div>
+
+     </div> 
+    <!-- <script>
         function select() {
    document.getElementById("ten-minute-button").style.borderColor = "yellow";
    document.getElementById("twenty-minute-button").style.borderColor = "white";
@@ -107,8 +121,9 @@
    document.getElementById("thirty-minute-button").style.borderColor = "yellow";
         }
         
-       </script>  
+       </script>   --> 
         
+       
     
     <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>  
     
