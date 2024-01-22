@@ -397,6 +397,10 @@ footer {
     height: 225px;
 }
 
+.meditation-blurb {
+    display: inline;
+}
+
 iframe{
     position: absolute;
     width: 30%;
