@@ -393,12 +393,19 @@ footer {
 }
 
 .meditation-videos {
+    position: relative;
     display: block;
     height: 225px;
 }
 
 .meditation-blurb {
-    display: inline;
+    position: relative;
+    display: flex;
+    margin-left: 800px;
+    width: 400px;
+}
+.video-text {
+    margin-top: 75px;
 }
 
 iframe{
