@@ -211,7 +211,7 @@ footer {
 #med-content {
     display: block;
     position: absolute;
-    height: 100vh;
+    height: auto;
     width:100%;
     background-color: lightslategrey;
     margin:0;
@@ -398,17 +398,25 @@ footer {
     height: 225px;
 }
 
+.second-color {
+    background-color: lightcyan;
+}
+
 .meditation-blurb {
     position: relative;
     display: flex;
     margin-left: 450px;
 }
 .video-text {
-    margin-top: 75px;
+    margin-top: 60px;
     margin-left: 75px;
     width: 500px;
     color: cyan;
     font-size: 20px;
+}
+
+.text-contrast-color {
+    color: lightslategray;
 }
 
 iframe{
@@ -416,7 +424,7 @@ iframe{
     width: 30%;
     height: 95%;
     display: block;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-left: 35px;
 }
  
