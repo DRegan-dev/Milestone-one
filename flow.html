@@ -62,12 +62,12 @@
         </footer>
     </section>
     <div class="med-content">
-        <div id="yoga-video-container">
-           <!--The following code was taken and adapted from an article titled "You can get pretty far in making a slider with just HTML and CSS"
+        <!-- <div id="yoga-video-container">
+           The following code was taken and adapted from an article titled "You can get pretty far in making a slider with just HTML and CSS"
             and can be found at https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/--> 
             
 
-            <a href="#slide-4" class="vid-button" id="fifteen-minute-button" onclick="selected()">15 Minute</a>
+            <!-- <a href="#slide-4" class="vid-button" id="fifteen-minute-button" onclick="selected()">15 Minute</a>
             <a href="#slide-5" class="vid-button" id="thirty-minute-yoga-button" onclick="secondselected()">30 Minute</a>
             <a href="#slide-6" class="vid-button" id="sixty-minute-button" onclick="thirdselected()">60 Minute</a>
             <div class="slider">
@@ -78,11 +78,32 @@
                <div class="slide" id="slide-6"><iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/164zsYk4x9o" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                
             </div>
-        </div>
+        </div> --> 
             
 
-    </div>
-      <script>
+        <div class="yoga-videos">
+            <iframe id="first-yoga-video" width="280" height="157.5" src="https://www.youtube.com/embed/xv-ejEOogaA?si=XAQBeZG8CYLZH7yu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="yoga-blurb">
+                <p class="video-text"> The midst of your busy day, dedicating a mere 10 minutes to meditation can be a game-changer. It's a brief pause that offers profound benefits, providing clarity and resilience to navigate the chaos. Embrace the stillness; your hectic life will thank you.</p>
+            </div>
+           </div>
+           <div class="yoga-videos second-color">
+            <iframe id="second-yoga-video" width="280" height="157.5" src="https://www.youtube.com/embed/jwZcw_rN86c?si=SClKh0csi3H6Mdov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="yoga-blurb">
+                <p class="video-text text-contrast-color"> Allocating just 20 minutes to meditation can be transformative. Amidst the chaos, this brief investment nurtures clarity and resilience, fostering a sense of calm to carry you through the demands of your day. Embrace the tranquility; your busy life will find renewed balance and gratitude.</p>
+    
+            </div>
+           </div>
+           <div class="yoga-videos">
+            <iframe id="third-yoga-video" width="280" height="157.5" src="https://www.youtube.com/embed/_toq43rAAlI?si=cijDwbEM76WLItwH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="yoga-blurb">
+                <p class="video-text"> The rush of daily demands, dedicating 30 minutes to meditation becomes a powerful anchor. This intentional pause is a gift to yourself—a chance to cultivate clarity and resilience. Embrace the tranquility; your dynamic life will reap the benefits of a grounded and centered mindset.</p> 
+    
+            </div>
+           </div>
+    
+         </div> 
+      <!-- <script>
        function selected() {
   document.getElementById("fifteen-minute-button").style.borderColor = "yellow";
   document.getElementById("thirty-minute-yoga-button").style.borderColor = "white";
@@ -99,7 +120,7 @@
   document.getElementById("sixty-minute-button").style.borderColor = "yellow";
        }
        
-      </script>  
+      </script>   -->
     
     <script src="https://kit.fontawesome.com/5125eaa352.js" crossorigin="anonymous"></script>  
     

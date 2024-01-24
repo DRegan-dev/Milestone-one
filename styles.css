@@ -398,6 +398,12 @@ footer {
     height: 225px;
 }
 
+.yoga-videos {
+    position: relative;
+    display: block;
+    height: 225px;
+}
+
 .second-color {
     background-color: lightcyan;
 }
@@ -407,6 +413,13 @@ footer {
     display: flex;
     margin-left: 450px;
 }
+
+.yoga-blurb {
+    position: relative;
+    display: flex;
+    margin-left: 450px;
+}
+
 .video-text {
     margin-top: 60px;
     margin-left: 75px;
@@ -432,11 +445,23 @@ iframe{
     display: block;
 }
 
+#first-yoga-video {
+    display: block;
+}
+
 #second-med-video {
     display: block;
 }
 
+#second-yoga-video {
+    display: block;
+}
+
 #third-med-video {
+    display: block;
+}
+
+#third-yoga-video {
     display: block;
 }
 
